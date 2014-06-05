@@ -15,14 +15,14 @@ Song::Song (string _title, string _artist, string _album, int _year, string _com
            songID = _songID;
 }
 //Modifiers
-void Song::changeAlbum(string _album){album = _album;}
-void Song::changeArtist(string _artist){artist = _artist;}
-void Song::changeComposer(string _composer){composer = _composer;}
-void Song::changeGenre(string _genre){genre = _genre;}
-void Song::changeOwner(string _owner){owner = _owner;}
-void Song::changeSongID(string _songID){songID = _songID;}
-void Song::changeTitle(string _title){title = _title;}
-void Song::changeYear(int _year){year = _year;}
+void Song::setAlbum(string _album){album = _album;}
+void Song::setArtist(string _artist){artist = _artist;}
+void Song::setComposer(string _composer){composer = _composer;}
+void Song::setGenre(string _genre){genre = _genre;}
+void Song::setOwner(string _owner){owner = _owner;}
+void Song::setSongID(string _songID){songID = _songID;}
+void Song::setTitle(string _title){title = _title;}
+void Song::setYear(int _year){year = _year;}
 //Accessors
 string Song::getAlbum(){return album;}
 string Song::getArtist(){return artist;}

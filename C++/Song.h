@@ -14,14 +14,14 @@ class Song
              Song(string, string, string, int, string, string, string, string);
              
              //Modifiers
-             void changeTitle(string);
-             void changeArtist(string);
-             void changeAlbum(string);
-             void changeYear(int);
-             void changeComposer(string);
-             void changeGenre(string);
-             void changeSongID(string);
-             void changeOwner(string);
+             void setTitle(string);
+             void setArtist(string);
+             void setAlbum(string);
+             void setYear(int);
+             void setComposer(string);
+             void setGenre(string);
+             void setSongID(string);
+             void setOwner(string);
              
              //Accessers
              string getOwner();
