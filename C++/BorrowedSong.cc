@@ -12,6 +12,14 @@ BorrowedSong::BorrowedSong (string _title, string _artist, string _album, int _y
                            startTime = localtime( & t);
 }
 
+void BorrowedSong::setBorrower(string _borrower){borrower = _borrower;}
+void BorrowedSong::setPlaysLeft(int _playsLeft){playsLeft = _playsLeft;}
+
+string BorrowedSong::getBorrower(){return borrower;}
+int BorrowedSong::getPlaysLeft(){return playsLeft;}
+struct tm * BorrowedSong::getStartTime(){return startTime;}
+
+
 string BorrowedSong::toString(){
        string temp = Song::toString();
        stringstream ss1, ss2, ss3;
