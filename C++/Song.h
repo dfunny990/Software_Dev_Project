@@ -1,3 +1,6 @@
+#ifndef Song_h
+#define Song_h
+
 #include <cstdlib>
 #include <iostream>
 #include <String>
@@ -25,3 +28,4 @@ class Song
               string genre;
 };
 
+#endif //Song.h
